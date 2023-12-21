@@ -9,7 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "@xmtp/xmtp-js": "^v11.3.0-beta.16",
+    "@xmtp/xmtp-js": "^v11.3.0-beta.19",
     "buffer": "^6.0.3",
     "ethers": "^5.7.0",
     "next": "14.0.4",

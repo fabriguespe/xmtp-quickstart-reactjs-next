@@ -1,6 +1,7 @@
 "use client";
 import React, { useState, useEffect } from "react";
-import { Client } from "@xmtp/xmtp-js";
+import { FloatingInbox } from "./FloatingInbox-text";
+import { ethers } from "ethers";
 
 const InboxPage = () => {
   const [signer, setSigner] = useState(null);
@@ -138,6 +139,7 @@ const InboxPage = () => {
           Close
         </button>
       </section>
+      <FloatingInbox env={process.env.REACT_APP_XMTP_ENV} wallet={signer} />
     </div>
   );
 };

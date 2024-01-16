@@ -1,4 +1,4 @@
-# XMTP JS Quickstart
+# XMTP Quickstart
 
 ## Installation
 
